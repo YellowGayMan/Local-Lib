@@ -322,7 +322,7 @@ function lib:Window(text)
 			end
 			toggle.Name = "toggle"
 			toggle.Parent = container
-			toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			toggle.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
 			toggle.BorderSizePixel = 0
 			toggle.ClipsDescendants = true
 			toggle.Position = UDim2.new(0.128787875, 0, 0.519480526, 0)
@@ -377,7 +377,7 @@ function lib:Window(text)
 					status,
 					TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 					{
-						BackgroundColor3 = Color3.fromRGB(81, 255, 55)
+						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					}
 				)
 
