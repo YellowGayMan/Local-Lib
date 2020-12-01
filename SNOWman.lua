@@ -175,7 +175,7 @@ function lib:Window(text)
 	title.Size = UDim2.new(0, 42, 0, 26)
 	title.Font = Enum.Font.Gotham
 	title.Text = text
-	title.TextColor3 = Color3.fromRGB(255, 255, 255)
+	title.TextColor3 = Color3.fromRGB(209, 245, 217)
 	title.TextSize = 15.000
 	title.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -441,7 +441,7 @@ function lib:Window(text)
 			title.ZIndex = 2
 			title.Font = Enum.Font.Gotham
 			title.Text = text
-			title.TextColor3 = Color3.fromRGB(255, 255, 255)
+			title.TextColor3 = Color3.fromRGB(209, 245, 217)
 			title.TextSize = 14.000
 			title.TextXAlignment = Enum.TextXAlignment.Left
 			slider.Size = UDim2.new(0, title.TextBounds.X + 185, 0, 30)
@@ -470,7 +470,7 @@ function lib:Window(text)
 			value.Size = UDim2.new(1, 0, 1, 0)
 			value.Font = Enum.Font.Gotham
 			value.Text = tostring(start and math.floor((start / max) * (max - min) + min) or 0)
-			value.TextColor3 = Color3.fromRGB(255, 255, 255)
+			value.TextColor3 = Color3.fromRGB(209, 245, 217)
 			value.TextSize = 14.000
 			container.CanvasSize = UDim2.new(0, 0, 0, containerlist.AbsoluteContentSize.Y + 10)
 
