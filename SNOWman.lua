@@ -386,7 +386,7 @@ function lib:Window(text)
 					status,
 					TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 					{
-						BackgroundColor3 = Color3.fromRGB(255, 49, 49)
+						BackgroundColor3 = Color3.fromRGB(255, 236, 201)
 					}
 				)
 
