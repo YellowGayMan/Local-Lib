@@ -206,9 +206,9 @@ function lib:Window(text)
 		tabbtn.AutoButtonColor = false
 		tabbtn.Font = Enum.Font.Gotham
 		tabbtn.Text = title
-		tabbtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+		tabbtn.TextColor3 = Color3.fromRGB(209, 245, 217)
 		tabbtn.TextSize = 14.000
-		tabbtn.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		tabbtn.TextStrokeColor3 = Color3.fromRGB(209, 245, 217)
 		tabbtn.Size = UDim2.new(0, tabbtn.TextBounds.X + 15, 0, 21)
 
 		container.Name = "container"
@@ -288,7 +288,7 @@ function lib:Window(text)
 			button.AutoButtonColor = false
 			button.Font = Enum.Font.Gotham
 			button.Text = text
-			button.TextColor3 = Color3.fromRGB(255, 255, 255)
+			button.TextColor3 = Color3.fromRGB(209, 245, 217)
 			button.TextSize = 14.000
 			button.Size = UDim2.new(0, button.TextBounds.X + 15, 0, 27)
 			button.ClipsDescendants = true
@@ -341,7 +341,7 @@ function lib:Window(text)
 			title.Font = Enum.Font.Gotham
 			title.Text = text
 			title.Size = UDim2.new(0, 20, 1, 0)
-			title.TextColor3 = Color3.fromRGB(255, 255, 255)
+			title.TextColor3 = Color3.fromRGB(209, 245, 217)
 			title.TextSize = 14.000
 			title.TextXAlignment = Enum.TextXAlignment.Left
 			toggle.Size = UDim2.new(0, title.TextBounds.X + 50, 0, 30)
@@ -377,7 +377,7 @@ function lib:Window(text)
 					status,
 					TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 					{
-						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+						BackgroundColor3 = Color3.fromRGB(209, 245, 217)
 					}
 				)
 
@@ -386,7 +386,7 @@ function lib:Window(text)
 					status,
 					TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 					{
-						BackgroundColor3 = Color3.fromRGB(255, 49, 49)
+						BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 					}
 				)
 
